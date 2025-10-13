@@ -48,5 +48,6 @@
 
 
 #Stack과 Queue
-  Stack은 후입선출(LIFO)
-  Queue은 선입선출(FIFO = First Input First Out)
+Stack과 Queue는 데이터를 저장·관리하는 자료구조지만, 데이터 삽입·삭제 방식에서 차이가 있다.
+  Stack은 후입선출(LIFO)구조로 함수 호출 스택, 연산자 후위표기법, 문자열 역순 출력 등에 적합하다.
+  Queue은 선입선출(FIFO = First Input First Out)구조로 대기열, 버퍼, BFS(너비 우선 탐색), 캐시 구현 등에 활용된다.
