@@ -56,3 +56,18 @@
 4. 메모리
     
     : Access Token을 클라이언트 서버의 메모리에 저장하는 방식
+
+    Refresh token
+      refresh token은 access token과 함께 발급되는 별도의 토큰으로 새로운 access token을 재발급받기 위해 사용되는 토큰
+
+      보안을 위해 짧은 만료기간을 설정한 Access Token이 만료되었다면, 클라이언트는 긴  만료 기간을 가진 Refresh Token의 유효성을 검증하고 인증 서버로부터 새 Access Token을 요청함
+
+      → 이를 통해, **연속적인 사용자 인증을 가능하게 하며, 사용자가 다시 로그인할 필요 없이 애플리케이션을 사용할 수 있도록 하는 것**
+
+  @ refresh token 저장 위치
+
+1. 로컬 스토리지
+2. 세션 스토리지
+3. HTTP-only 쿠키
+4. 메모리
+5. 서버 DB에서 관리
