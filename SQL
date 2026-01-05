@@ -32,3 +32,14 @@ redirect
 제2정규화: 부분적 함수 종속을 제거하는 정규화
 제3정규화: 이행적 함수 종속을 제거하는 정규화.
 
+#데이터베이스 언어
+     DCL (제어어 : Data Control Language) 
+         데이터에 대해 무결성 유지, 병행 수행 제어, 보호와 관리를 위한 언어.
+         (commit, rollback, grant, revoke)
+     DML (조작어 : Data Manipulation Language)
+         데이터베이스 내의 자료 검색, 삽입, 갱신, 삭제를 위한 언어.
+         (select, delete, update, insert)
+     DDL (정의어 : Data Definition Language)
+         데이터베이스 구조를 정의,수정,삭제하는 언어.
+         (create, alter, drop)
+
