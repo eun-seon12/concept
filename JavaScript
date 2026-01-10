@@ -23,3 +23,11 @@
   3. 메서드에서 this : 자기 참조 변수를 의미한다. 
   4. call, apply, bind로 호출된 함수에서 this : 첫번째 인자로 넘겨준 객체가 this로 바인딩된다. 
   5. 이벤트 핸들러에서 this : 이벤트를 위임한 객체(e.currentTarget)로 바인딩된다. 
+
+#var vs let vs const 차이
+
+#== vs ===
+
+#null vs undefined
+
+#debounce vs throttle
