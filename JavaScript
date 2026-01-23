@@ -83,6 +83,15 @@
 
 #null vs undefined
 
+     ##null
+       값이 없다
+       의미 : “여기에는 값이 없다” 라고 의도적으로 표현
+     ##undefined
+       아직 값이 정해지지 않았다
+       의미 : 변수가 선언만 되고 값이 할당되지 않은 상태
+
+     null과 undefined는 ===으로 비교함
+
 #debounce vs throttle
 
 #브라우저 렌더링 원리
