@@ -43,3 +43,8 @@ redirect
          데이터베이스 구조를 정의,수정,삭제하는 언어.
          (create, alter, drop)
 
+#화살표함수(arrow function)
+      기존 function 문법을 짧고 간결하게 쓸 수 있는 함수 표현식으로,
+      콜백 함수 (map, filter, reduce), 짧은 함수, this를 고정하고 싶을 때 사용한다.
+      화살표 함수는 자기만의 this를 가지지 않기 때문에 바깥 스코프의 this를 그대로 사용한다.
+      
