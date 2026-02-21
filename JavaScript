@@ -149,6 +149,18 @@
 			(1) useCallback
 			(2) React.memo
 			(3) 이벤트 안에서 setState 최소화
+        3) 스크롤 & 애니메이션 최적화
+            (1) requestAnimationFrame 사용
+            (2) CSS transform 사용
+            (3) will-change 최소화
+        4) 이벤트 위임 (Event Delegation)
+            리스트에 이벤트 여러 개 달지 않고 부모에 하나만 달기
+        5) Passive Event Listener 사용
+            스크롤 성능 개선
+        * React Native에서 인터랙션 최적화
+            (1) FlatList 사용
+            (2) keyExtractor 명확히
+            (3) InteractionManager 사용
   4. 네트워크 & 데이터 최적화
   5. 이미지 & 리소스 최적화
   6. 브라우저 랜더링 이해 기반 최적화
