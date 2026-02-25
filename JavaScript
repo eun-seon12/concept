@@ -183,4 +183,13 @@
         6) 아이콘 SVG
         7) 불필요한 리렌더 방지
   6. 브라우저 랜더링 이해 기반 최적화
+        1) 브라우저 렌더링 과정을 이해
+        2) reflow 최소화
+        3) Layout Thrashing 방지
+        4) paint 비용 줄이기
+        5) Composite 단계 활용
+        6) Critical Rendering Path 줄이기
+        7) React 기준 최적화
+        8) CLS (Layout Shift) 방지
+        9) 애니메이션 최적화
   7. 측정 & 분석
