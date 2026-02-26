@@ -193,3 +193,13 @@
         8) CLS (Layout Shift) 방지
         9) 애니메이션 최적화
   7. 측정 & 분석
+        측정 -> 분석 -> 개선 -> 재측정 사이클
+        1) core web vitals(구글 기준)
+           LCP
+           CLS
+           INP
+        2) 측정 도구들
+           (1) chrome devtools
+           (2) lighthouse
+           (3) pagespeed insights
+           (4) web vitals 라이브러리
