@@ -51,3 +51,11 @@ redirect
 #RDB와NoSQL의차이
       RDBMS는 정해진 스키마가 존재하고, NoSQL는 정해진 스키마가 없다는 것이 가장 큰 차이이다.
       NoSQL은 정해진 스키마가 없을 때 데이터 구조 변화가 자유롭고 데이터 분산이 용이하다는 장점이 있지만, 데이터 중복이 발생하거나 데이터 변경 시에 연산이 오래 걸린다는 단점이 있다.
+
+#ACID
+      ACID는 데이터베이스에서 트랜잭션(Transaction)이 안전하게 처리되도록 보장하는 4가지 성질을 말한다.
+      ACID =
+         Atomicity
+         Consistency
+         Isolation
+         Durability
