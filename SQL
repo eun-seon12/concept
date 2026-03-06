@@ -59,3 +59,7 @@ redirect
          Consistency
          Isolation
          Durability
+ •	Atomicity : 전부 성공하거나 전부 실패
+	•	Consistency : 데이터 무결성 유지
+	•	Isolation : 트랜잭션 간 간섭 방지
+	•	Durability : commit된 데이터는 영구 저장
